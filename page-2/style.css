@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header .nav-item{
+    padding:0px 15px ;
+    background-color: white;
+    font-size: 18px;
+}
+.navbar{
+    padding: 15px 0px;
+}
+.navbar-brand img{
+    font-size: 32px;
+    height: 60px;
+    width: 60px;
+}
+header .nav-item .btn-1{
+    background-color: #A78361;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.head{
+    background-image: url(Rectangle\ 344.png);
+    height: 80vh;
+    width: 100%;
+background-size: cover;
+}
+.head-text{
+    padding: 290px 0px 0px;
+}
+.head-text h2{
+    font-size: 38px;
+}
+.head-text h3{
+    color: #FFF;
+
+    /* sub heading */
+    font-family: Lora;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 200%;
+    letter-spacing: 2.45px;
+}
+.head-text p{
+    line-height: 200%;
+}
+.position-img{
+    position: absolute;
+    left: 0;
+    padding: 125px 300px;
+}
+
+.great-text{
+    color: #CAB19B;
+
+/* spaceing Text */
+font-family: Lora;
+font-size: 20px;
+margin-top: 50px;
+font-weight: 400;
+line-height: 220%; 
+letter-spacing: 1px;
+}
+.text-left{
+    line-height: 200%;
+    margin-top: 20px;
+}
+
+ .row  .btn-2{
+    background-color: #A78361;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px; 
+    margin-top: 25px;
+}
+.room-tour h2{
+font-size: 35px;
+font-weight: 500;
+line-height: 150%;
+/* font-family: Lora; */
+letter-spacing: 2.20px;
+}
+.room-tour p{
+    
+ 
+    /* font-family: Lora; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%; 
+    letter-spacing: 1.6px;
+}
+.room-tour .more-btn{
+    border:1px solid black;
+    padding-left: 20px;
+}
+
+.room-tour .top-align{
+    margin-top: 100px;
+ 
+}
+
+.room-tour .align-image{
+    margin-left: 30px;
+}
+/*  */
+.bg-img{
+    background-image: url(Rectangle\ 344.png);
+width: 100%;
+height: 50vh;
+background-size: cover;
+background-position: center;
+margin-top: 100px;
+}
+.bg-img h2{
+    color: #FFF;
+font-family: Lora;
+padding-top: 50px;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 2.8px;
+}
+.bg-img p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+    padding-top: 20px;
+    line-height: 220%;
+    letter-spacing: 1px;
+}
+.bg-img .btn{
+    background-color: #A78361;
+    color: white;
+    font-size: 18px;
+    padding-left: 15px;
+    border-radius: 2px; 
+    margin-top: 20px;
+}
+
+.testimonials h4{
+    color: #CAB19B;
+    font-size: 28px;
+    margin-top: 100px;
+    font-weight: 500;
+    letter-spacing:2.1px ;
+    text-align: center   
+}
+.testimonials h3{
+    font-family: Lora;
+    font-size: 35px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 52.5px */
+    letter-spacing: 2.45px
+}
+.testimonials p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+        letter-spacing: 1.5px;
+}
+
+footer{
+    background-color: #FFF0E1;
+    margin-top: 150px;
+}
+
+.link li{
+    list-style-type: none;
+}
+.link li a{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+}
+
+.vertical-line{
+    border-left: 2px solid black;
+    position: absolute;
+    height: 300px;
+    left: 60%;
+    margin-top: 60px;
+}
+
+  
+.field{
+
+    position: relative;
+}
+.field .position-behaviour{
+    position: absolute;
+        /* z-index:1; */
+    margin-left: 10px;
+    margin-top: -13px;
+    background-color: #FFF0E1;
+
+}
+.field input{
+    background-color: transparent;
+    border: 1px solid black;
+    width: 80%;
+    height: 40px;
+}
+footer form .btn-5{
+    margin-left: 230px;
+    background-color: #A78361;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.foot-last{
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    background-color: #333;
+}
+.foot-last h6{
+    color: #FFF;
+font-family: Lora;
+font-size: 16px;
+font-weight: 400;
+line-height: 200%; 
+letter-spacing: 1.6px;
+}

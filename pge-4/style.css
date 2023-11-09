@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header .nav-item{
+    padding:0px 10px ;
+    background-color: white;
+    font-size: 18px;
+}
+.navbar{
+    padding: 15px 0px;
+}
+.navbar-brand img{
+    font-size: 32px;
+    height: 60px;
+    width: 60px;
+}
+.btn-1{
+    background-color: #A78361;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.head{
+    background-image: url(Rectangle\ 22.png);
+    height: auto;
+    min-height: 80vh;
+    width: 100%;
+background-size: cover;
+}
+.head-text{
+    padding: 240px 0px 0px;
+}
+.head-text h4{
+font-size: 40px;
+color: #FFF;
+font-family: Lora;
+font-size: 40px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 2.8px;
+}
+.head-text h2{
+color: #FFF;
+font-family: Lora;
+font-size: 35px;
+font-weight: 500;
+line-height: 150%; 
+letter-spacing: 2.45px;
+}
+.check{
+    width: 200px;
+    height: 60px;
+    padding-right: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    /* text-align: center; */
+}
+input{
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+input[type="date"]{
+    background-color: transparent;
+}
+
+.input-text{
+    margin-left: 50px;
+    
+}
+
+.btn-4[type="submit"]{
+background-color: #A78361;
+width: 180px;
+height: 60px;
+margin-top: 20px;
+}
+.input-text span{
+font-size: 20px;
+
+}
+.rooms h5{
+    color: var(--Main, #CAB19B);
+
+/* Text */
+font-family: Lora;
+font-size: 16px;
+font-weight: 400;
+line-height: 200%;
+text-align: center;
+margin-top: 100px;
+letter-spacing: 1.6px;
+}
+.rooms h4{
+color: #000;
+text-align: center;
+font-family: Lora;
+font-size: 35px;
+font-weight: 500;
+line-height: 150%; 
+letter-spacing: 2.45px;
+}
+.rooms .row small{
+    color: #000;
+    font-family: Lora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 212%; 
+margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.rooms .row h3{
+font-family: Lora;
+font-size: 35px;
+font-weight: 500;
+/* line-height: 150%;  */
+letter-spacing: 2.45px;
+}
+.rooms .row p{
+    color: #000;
+font-family: Lora;
+font-size: 16px;
+font-weight: 400;
+/* line-height: 212%;  */
+letter-spacing: 1px;
+}
+.rooms .row span {
+    color: #CAB19B;
+    font-weight: 900;
+   margin-right: 20px;
+    font-size: 20px;
+}
+.row .btn{
+    background-color: #A78361;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.popular{
+    margin-top: 120px;
+}
+.popular h6{
+    color:  #CAB19B;
+font-family: Lora;
+font-size: 18px;
+font-weight: 400;
+line-height: 212%; 
+letter-spacing: 0.9px;
+}
+.popular h3{
+    color: #000;
+font-family: Lora;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 2.95px;
+}
+ .popular .spacing{
+    /* color: #000; */
+/* font-family: Lora; */
+font-size: 16px;
+font-weight: 400;
+line-height: 190%; 
+letter-spacing: 1.2px;
+ }
+ .popular .button-3{
+    background-color: transparent;
+    color: black;
+ }
+/* footer css */
+footer{
+    background-color: #FFF0E1;
+    margin-top: 150px;
+}
+
+.link li{
+    list-style-type: none;
+}
+.link li a{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+}
+
+/* .vertical-line{
+    border-left: 2px solid black;
+    position: absolute;
+    height: 300px;
+    left: 60%;
+    margin-top: 60px;
+} */
+
+  
+.field{
+
+    position: relative;
+}
+.field .position-behaviour{
+    position: absolute;
+        /* z-index:1; */
+    margin-left: 10px;
+    margin-top: -13px;
+    background-color: #FFF0E1;
+
+}
+.field input{
+    background-color: transparent;
+    border: 1px solid black;
+    width: 80%;
+    height: 40px;
+}
+footer form .btn-5{
+    margin-left: 230px;
+    background-color: #A78361;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.foot-last{
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    background-color: #333;
+}
+.foot-last h6{
+    color: #FFF;
+font-family: Lora;
+font-size: 16px;
+font-weight: 400;
+line-height: 200%; 
+letter-spacing: 1.6px;
+}

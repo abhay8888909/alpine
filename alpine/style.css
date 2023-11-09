@@ -1,0 +1,422 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-item {
+    padding: 0px 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.navbar {
+    padding: 15px 0px;
+}
+
+.navbar-brand img {
+    font-size: 32px;
+    height: 60px;
+    width: 60px;
+}
+
+.btn-1 {
+    background-color: #A78361;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+.head {
+    background-image: url(Rectangle\ 22.png);
+    width: 100%;
+    background-size: cover;
+    height: auto;
+}
+
+.head-text {
+    padding: 240px 0px 0px;
+}
+
+.countin-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.head-img-index {
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.main-icon {
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 30px;
+}
+
+/* Insp */
+.inspiration div {
+    flex-basis: 50%;
+    margin-top: 80px;
+}
+
+.inspiration-img {
+    position: relative;
+}
+
+.img-2,
+.img-3 {
+    position: absolute;
+}
+
+.img-1 {
+    z-index: -1;
+    position: relative;
+}
+
+.img-2 {
+    z-index: 1;
+    right: 5%;
+    top: 50px;
+}
+
+.img-3 {
+    z-index: 2;
+    right: 40%;
+    bottom: -50px;
+}
+
+/*  */
+.main-img {
+    /* height: 350px; */
+    width: 100%;
+    background-image: url(Rectangle\ 363.png);
+    background-size: cover;
+}
+
+.check {
+    width: 200px;
+    height: 60px;
+    padding-right: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    /* text-align: center; */
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="date"] .form {
+    background-color: transparent;
+}
+
+.input-text {
+    margin-left: 50px;
+
+}
+
+.btn-4[type="submit"] {
+    background-color: #A78361;
+    width: 180px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.input-text span {
+    font-size: 20px;
+
+}
+
+.wrap-contaner {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.room-sec {
+    margin-top: 100px;
+}
+
+.room-sec h4 {
+    color: #CAB19B;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2.1px;
+    text-align: center;
+
+}
+
+.room-sec p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+
+.card {
+    margin-top: 50px
+}
+
+.flex-x {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card .d-flex {
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.card .d-flex i {
+    font-size: 20px;
+}
+
+.card .d-flex .ico {
+    width: 20px;
+}
+
+.card .d-flex .btn-2 {
+    color: #A78361;
+}
+
+.gallery-section {
+    margin-top: 120px;
+}
+
+.gallery-section h4 {
+    color: #CAB19B;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2.1px;
+    text-align: center;
+}
+
+.gallery-section h3 {
+    font-size: 34px;
+    font-weight: 500;
+    letter-spacing: 4.1px;
+    text-align: center;
+}
+
+.gallery-section p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+}
+
+.image-gallery {
+    gap: 40px;
+    margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*  */
+.offers-sec {
+    margin-top: 120px;
+}
+
+.offers-sec h4 {
+    color: #CAB19B;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2.1px;
+    text-align: center
+}
+
+.offers-sec h3 {
+    font-family: Lora;
+    font-size: 35px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 52.5px */
+    letter-spacing: 2.45px;
+}
+
+.offers-sec p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+}
+
+.text-image {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.text-image h5 {
+    position: absolute;
+    top: 0;
+    color: #FFF;
+    font-size: 23px;
+    padding: 80px;
+    margin-top: 90px;
+    font-weight: 300;
+    line-height: 150%;
+    /* 37.5px */
+    letter-spacing: -0.55px;
+}
+
+.text-image .box-2 h5 {
+    position: absolute;
+    top: 0;
+    color: #FFF;
+    font-size: 23px;
+    padding: 70px;
+    margin-top: 90px;
+    font-weight: 300;
+    line-height: 150%;
+    /* 37.5px */
+    letter-spacing: -0.55px;
+}
+
+.text-image .button-3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 140px;
+    margin-top: 340px;
+    background-color: #A78361;
+    color: white;
+    display: none;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+.text-image p {
+    position: absolute;
+    top: 0;
+    color: #FFF;
+    font-size: 17px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 160px;
+    font-weight: 200;
+    line-height: 150%;
+    /* 37.5px */
+    letter-spacing: -0.55px;
+}
+
+.box:hover {
+    display: flex;
+}
+
+/* testimonials-sec css */
+.testimonials h4 {
+    color: #CAB19B;
+    font-size: 28px;
+    margin-top: 100px;
+    font-weight: 500;
+    letter-spacing: 2.1px;
+    text-align: center
+}
+
+.testimonials h3 {
+    font-family: Lora;
+    font-size: 35px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 52.5px */
+    letter-spacing: 2.45px
+}
+
+.testimonials p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+footer {
+    background-color: #FFF0E1;
+    margin-top: 150px;
+}
+
+.link li {
+    list-style-type: none;
+}
+
+.link li a {
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+}
+
+.vertical-line {
+    border-left: 2px solid black;
+    position: absolute;
+    height: 300px;
+    left: 60%;
+    margin-top: 60px;
+}
+
+
+.field {
+
+    position: relative;
+}
+
+.field .position-behaviour {
+    position: absolute;
+    /* z-index:1; */
+    margin-left: 10px;
+    margin-top: -13px;
+    background-color: #FFF0E1;
+
+}
+
+.field input {
+    background-color: transparent;
+    border: 1px solid black;
+    width: 80%;
+    height: 40px;
+}
+
+footer form .btn-5 {
+    margin-left: 230px;
+    background-color: #A78361;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+.foot-last {
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    background-color: #333;
+}
+
+.foot-last h6 {
+    color: #FFF;
+    font-family: Lora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 1.6px;
+}
+@media only screen and (max-width: 992px) {
+    .img-1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
